@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://cdn.firstcry.com/education/2022/05/03124620/1269582256.jpg");
+    background-position: center;
+    background-size: cover;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    color: #170c0c;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color:rgb(211, 236, 225);
+    border-radius:  7px;
+    padding:10px;
+}
+header .navigation a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+header .navigation a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.content{
+    width: 70;
+   
+    margin: 60px 0px;
+    text-align: center;
+}
+.content .info h2{
+    color: #b1bc32;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content .info h2 span{
+    color: #25bf49;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content .info p{
+    width: 70%;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: rgb(187, 200, 215);
+    text-align: center;
+    margin-left:  200px;;
+}
+.content .info-btn{
+    color: #fff;
+    background: #022732e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+    text-align: center;
+}
+.content .info-btn:hover{
+    background: #84a2a9;
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.media-icons a{
+    position: relative;
+    color: #fffefe;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+}
